@@ -274,7 +274,7 @@ C1PVideo.prototype.setModel = function(nModel)
      * the only other supported model is 540 (2K video buffer).
      */
     if (this.nModel == 600) {
-        this.setDimensions(this.nDefaultCols, this.nDefaultRows, 4, 24);
+        this.setDimensions(this.nDefaultCols, this.nDefaultRows, 4, 25);
         if (this.cbScreen == 1024 && this.cpu) {
             /*
              * NOTE: We deliberately set the guard address to the LAST byte of the 2K
